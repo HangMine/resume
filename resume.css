@@ -1,0 +1,295 @@
+html{
+  font-family: "微软雅黑";
+}
+.section1{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top:0;
+  display: flex;
+  /*justify-content: center;*/
+  align-items: center;
+  flex-direction: column;
+  color: rgb(246, 246, 246);
+  font-size: 8rem;
+}
+.section1 #menu a{
+  text-decoration: none;
+  color: rgb(246, 246, 246);
+  -webkit-transition: color .5s;
+}
+.section1 #menu a:hover{
+  color: rgba(6, 17, 33, 0.39);
+}
+.wellcome{
+  position: absolute;
+  text-shadow: 3px 3px rgb(204, 213, 213);
+  font-weight: bold;
+}
+.glyphicon-chevron-down{
+  font-size: 4rem;
+  position: absolute;
+  top: 90%;
+  right: 48%;
+}
+.glyphicon-chevron-down{
+  display: none;
+}
+.glyphicon-chevron-down:hover{
+  cursor: pointer;
+}
+.section2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.section2 img{
+  border: 10px solid gray;
+  -webkit-transition:-webkit-transform 1s;
+}
+.section2 img:hover{
+  background: rgba(32, 35, 36, 0.35);
+  cursor: pointer;
+  -webkit-transform:rotate(360deg);
+}
+.section2 .produce{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 10px;
+}
+.section3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  color: rgb(246, 246, 246);
+}
+.section2 .navbar{
+  position: absolute;
+  top: 2px;
+  font-weight: bold;
+}
+.section3 .navbar{
+  position: absolute;
+  top: 2px;
+  font-weight: bold;
+}
+.section4 .navbar{
+  position: absolute;
+  top: 2px;
+  font-weight: bold;
+}
+.section5 .navbar{
+  position: absolute;
+  top: 2px;
+  font-weight: bold;
+}
+.section3 h1{
+  font-size: 7rem;
+  color: rgb(246, 246, 246);
+
+}
+.tag-line{
+  display: flex;
+  margin: 5px;
+}
+.tag{
+  margin: 5px;
+  padding: 5px;
+  border-radius: 3px;
+}
+.tag:hover{
+  cursor: default;
+}
+.opa{
+  opacity: .7;
+}
+.section4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(246, 246, 246);
+}
+.section4 h1{
+  font-size: 5rem;
+  text-shadow: 3px 3px rgb(204, 213, 213);
+  font-weight: bold;
+}
+.progress-striped{
+  padding: 0;
+  height: 1rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 1rem;
+}
+.progress{
+  display: flex;
+  align-items: center;
+  -webkit-transition: opacity .5s,border .5s;
+}
+.progress:hover{
+  opacity: .8;
+  border: .2rem solid gray;
+}
+.section4 .progration{
+  width: 70%;
+  display: flex;
+  height: 3rem;
+}
+.section4 .label-primary,
+.section4 .label-warning,
+.section4 .label-info,
+.section4 .label-success{
+  height: 2.2rem;
+  width: 2.2rem;
+  border-radius: 50%;
+  position: relative;
+  z-index: 1000;
+  top:.4rem;
+  -webkit-transition: border-radius .5s;
+  border: .5rem solid rgba(60, 83, 93, 0.66);
+}
+.section4 .label-primary:hover,
+.section4 .label-warning:hover,
+.section4 .label-info:hover,
+.section4 .label-success:hover{
+  border-radius: 5px;
+}
+.section4 .glyphicon-exclamation-sign{
+  color: rgba(35, 46, 65, 0.7);
+  font-size: 2.5rem;
+  position: relative;
+  top:.23rem;
+}
+.section4 .text {
+  width: 70%;
+}
+.section4 h1{
+  margin-bottom: 2rem;
+}
+.section4 .text .tag{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: .5rem;
+  width: 6.5rem;
+}
+.section4 .text .place{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*font-size: 1.2rem;*/
+  -webkit-transition: border-radius .5s;
+}
+.section4 .school{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: .5rem;
+  width: 15rem;
+  border: .1rem solid rgba(37, 41, 52, 0.7);
+}
+.section4 .company{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: .5rem;
+  width: 24rem;
+  border: .1rem solid rgba(37, 41, 52, 0.7);}
+.section4 .now{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: .5rem;
+  width:10rem;
+  border: .1rem solid rgba(37, 41, 52, 0.7);
+}
+.section5{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section2 h1,
+.section5 h1{
+  font-size: 6rem;
+  font-weight: bold;
+  color: rgb(246, 246, 246);
+  text-shadow: 3px 3px rgb(204, 213, 213);
+}
+
+.section2 h2,
+.section5 h2{
+  font-size: 4rem;
+  font-weight: bold;
+  color: rgb(246, 246, 246);
+}
+.section2 h2 a,
+.section5 h2 a{
+  text-decoration: none;
+  color: rgba(6, 17, 33, 0.39);
+  font-size: 3rem;
+  -webkit-transition:color .3s;
+}
+
+.section2 .email a,
+.section5 .email a{
+  text-decoration: none;
+  color: rgba(6, 17, 33, 0.39);
+  font-size: 1.7rem;
+  font-weight: bold;
+  -webkit-transition:color .3s;
+}
+.section2 a:hover,
+.section5 a:hover{
+  color:rgb(143, 250, 32);
+}
+.section2 .email,
+.section5 .email{
+  opacity: .7;
+  color: rgb(246, 246, 246);
+  font-weight: normal;
+  font-size: 2rem;
+}
+.section2 .resume,
+.section5 .resume{
+  color:rgb(143, 250, 32);
+  -webkit-transition:color .3s;
+}
+.section2 .resume:hover,
+.section5 .resume:hover{
+  color: rgba(6, 17, 33, 0.39);
+}
+.section2 .social-panel,
+.section5 .social-panel{
+  display: flex;
+  /*height: 4rem;*/
+}
+.section2 .social-panel div,
+.section5 .social-panel div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(6, 17, 33, 0.39);
+  border-radius: 50%;
+  -webkit-transition:border-radius .3s;
+  width: 4rem;
+  height: 4rem;
+  margin: .3rem;
+}
+.section2 .social-panel div:hover,
+.section5 .social-panel div:hover{
+  border-radius: .5rem;
+  background: rgba(6, 17, 33, 0.6);
+}
