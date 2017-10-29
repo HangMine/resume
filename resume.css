@@ -293,3 +293,7 @@ html{
   border-radius: .5rem;
   background: rgba(6, 17, 33, 0.6);
 }
+.section2 .undeline,
+.section5 .undeline{
+  text-decoration: none;
+}
