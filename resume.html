@@ -10,20 +10,62 @@
   <link rel="stylesheet" href="resume.css">
   <title>简历DEMO</title>
   <style media="screen">
-  html {overflow-y:hidden;}
-  body {margin:0; padding:29px00; font:14px"\5FAE\8F6F\96C5\9ED1",sans-serif;background:#ffffff;}
-  /*div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0; margin:0;}*/
-  table,td,tr,th{font-size:14px;}
-  li{list-style-type:none;}
-  img{vertical-align:top;border:0;}
-  ol,ul {list-style:none;}
-  h1,h2,h3,h4,h5,h6{font-size:12px; font-weight:normal;}
-  address,cite,code,em,th {font-weight:normal; font-style:normal;}
+    html {
+      overflow-y: hidden;
+    }
+
+    body {
+      margin: 0;
+      padding: 29px00;
+      font: 14px"\5FAE\8F6F\96C5\9ED1", sans-serif;
+      background: #ffffff;
+    }
+    /*div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0; margin:0;}*/
+
+    table,
+    td,
+    tr,
+    th {
+      font-size: 14px;
+    }
+
+    li {
+      list-style-type: none;
+    }
+
+    img {
+      vertical-align: top;
+      border: 0;
+    }
+
+    ol,
+    ul {
+      list-style: none;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-size: 12px;
+      font-weight: normal;
+    }
+
+    address,
+    cite,
+    code,
+    em,
+    th {
+      font-weight: normal;
+      font-style: normal;
+    }
 
 
     .icon {
-      width: 3rem;
-      height: 3rem;
+      width: 2rem;
+      height: 2rem;
       vertical-align: -0.15em;
       fill: currentColor;
       overflow: hidden;
@@ -39,7 +81,7 @@
         <div class="wellcome">
           Wellcome!
         </div>
-        <div>
+        <div class="down">
           <ul id="menu">
             <li data-menuanchor="page1" style="display:none"><a href="#page1">Page 1</a></li>
             <li data-menuanchor="page3" style="display:none"><a href="#page3">Page 3</a></li>
@@ -52,6 +94,7 @@
     </div>
     <div class="section" id="section2">
       <div class="section2">
+
         <nav class="navbar navbar-default navbar-inverse col-sm-12 col-md-12" role="navigation">
           <div class="container-fluid">
             <div class="navbar-header">
@@ -73,7 +116,7 @@
             </div>
           </div>
         </nav>
-
+        <div class="empty"></div>
         <div class="produce">
           <img src="hang.jpg" alt="图片" class="img-circle img-thumbnail">
           <h1>一个有梦想的攻城狮</h1>
@@ -81,157 +124,160 @@
           <p class="email">Phone:<a href="https://mail.qq.com/" target="_blank">&nbsp 13631147752</a></p>
           <a href="https://i.zhaopin.com/Home/ResumePreview?resumeNumber=JM392872967R90250000000&resumeId=224012314&version=1&language=1" target="_blank" class="undeline"><h2 class="resume">下载简历</h2></a>
           <div class="social-panel">
-            <div><a href="https://github.com/HangMine" target="_blank"><span><svg class="icon" aria-hidden="true"><use xlink:href="#icon-github"></use></svg></span></a></div>
-            <div><a href="http://blog.csdn.net/HangMine" target="_blank"><span><svg class="icon" style="font-size:width: 2.5rem;height: 2.5rem;" aria-hidden="true"><use xlink:href="#icon-csdn"></use></svg></span></a></div>
-            <div><a href="" target="_blank"><span><svg class="icon" aria-hidden="true"><use xlink:href="#icon-boke3"></use></svg></span></a></div>
-            <div><a href="" target="_blank"><span><svg class="icon" aria-hidden="true"><use xlink:href="#icon-wechat"></use></svg></span></a></div>
+            <div><a href="https://github.com/HangMine" target="_blank"><span><svg class="icon" aria-hidden="true"><use; xlink:href="#icon-github"></use></svg></span></a></div>
+            <div><a href="http://blog.csdn.net/HangMine" target="_blank"><span><svg class="icon" style="font-size:width: 1.5rem;height: 1.5rem;" aria-hidden="true"><use; xlink:href="#icon-csdn"></use></svg></span></a></div>
+            <div><a href="" target="_blank"><span><svg class="icon" aria-hidden="true"><use; xlink:href="#icon-boke3"></use></svg></span></a></div>
+            <div><a href="" target="_blank"><span><svg class="icon" aria-hidden="true"><use; xlink:href="#icon-wechat"></use></svg></span></a></div>
           </div>
         </div>
       </div>
-      </div>
-      <div class="section" id="section3">
-        <div class="section3">
-          <nav class="navbar navbar-default navbar-inverse col-sm-12 col-md-12" role="navigation">
-            <div class="container-fluid">
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+    </div>
+    <div class="section" id="section3">
+      <div class="section3">
+        <nav class="navbar navbar-default navbar-inverse col-sm-12 col-md-12" role="navigation">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
                 <span class="sr-only">切换导航</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-                <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-list"></span>&nbsp响应式导航栏</a>
-              </div>
-              <div class="collapse navbar-collapse" id="example-navbar-collapse">
-                <ul class="nav navbar-nav">
-                  <li><a href="#page1"><span class="glyphicon glyphicon-wrench"></span>&nbsp欢迎首页</a></li>
-                  <li><a href="#page2"><span class="glyphicon glyphicon-tasks"></span>&nbsp个人介绍</a></li>
-                  <li><a href="#page4"><span class="glyphicon glyphicon-globe"></span>&nbsp背景经历</a></li>
-                  <li><a href="#page5"><span class="glyphicon glyphicon-globe"></span>&nbsp了解更多</a></li>
-                </ul>
-              </div>
+              <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-list"></span>&nbsp响应式导航栏</a>
             </div>
-          </nav>
-          <h1>掌握技能</h1>
-          <div class="tag-line">
-            <div class="tag btn-primary">CSS</div>
-            <div class="tag btn-primary opa">SCSS</div>
+            <div class="collapse navbar-collapse" id="example-navbar-collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="#page1"><span class="glyphicon glyphicon-wrench"></span>&nbsp欢迎首页</a></li>
+                <li><a href="#page2"><span class="glyphicon glyphicon-tasks"></span>&nbsp个人介绍</a></li>
+                <li><a href="#page4"><span class="glyphicon glyphicon-globe"></span>&nbsp背景经历</a></li>
+                <li><a href="#page5"><span class="glyphicon glyphicon-globe"></span>&nbsp了解更多</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="empty"></div>
+        <h1>掌握技能</h1>
+        <div class="tag-line">
+          <div class="tag btn-primary">CSS</div>
+          <div class="tag btn-primary opa">SCSS</div>
 
-          </div>
-          <div class="tag-line">
-            <div class="tag btn-primary">JavaScript</div>
-            <div class="tag btn-primary">JQuery</div>
-            <div class="tag btn-primary opa">Bootstrap</div>
-          </div>
-          <div class="tag-line">
-            <div class="tag btn-primary">VUE</div>
-            <div class="tag btn-primary opa">Element UI</div>
-          </div>
-          <div class="tag-line">
-            <div class="tag btn-primary opa">HTML5</div>
-            <div class="tag btn-primary opa">SQL</div>
-          </div>
-          <div class="tag-line">
-            <div class="tag btn-primary">页面设计</div>
-            <div class="tag btn-primary opa">PhotoShop</div>
-          </div>
+        </div>
+        <div class="tag-line">
+          <div class="tag btn-primary">JavaScript</div>
+          <div class="tag btn-primary">JQuery</div>
+          <div class="tag btn-primary opa">Bootstrap</div>
+        </div>
+        <div class="tag-line">
+          <div class="tag btn-primary">VUE</div>
+          <div class="tag btn-primary opa">Element UI</div>
+        </div>
+        <div class="tag-line">
+          <div class="tag btn-primary opa">HTML5</div>
+          <div class="tag btn-primary opa">SQL</div>
+        </div>
+        <div class="tag-line">
+          <div class="tag btn-primary">页面设计</div>
+          <div class="tag btn-primary opa">PhotoShop</div>
         </div>
       </div>
-      <div class="section" id="section4">
-        <div class="section4">
-          <nav class="navbar navbar-default navbar-inverse col-sm-12 col-md-12" role="navigation">
-            <div class="container-fluid">
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+    </div>
+    <div class="section" id="section4">
+      <div class="section4">
+        <nav class="navbar navbar-default navbar-inverse col-sm-12 col-md-12" role="navigation">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
                 <span class="sr-only">切换导航</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-                <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-list"></span>&nbsp响应式导航栏</a>
-              </div>
-              <div class="collapse navbar-collapse" id="example-navbar-collapse">
-                <ul class="nav navbar-nav">
-                  <li><a href="#page1"><span class="glyphicon glyphicon-wrench"></span>&nbsp欢迎首页</a></li>
-                  <li><a href="#page2"><span class="glyphicon glyphicon-tasks"></span>&nbsp个人介绍</a></li>
-                  <li><a href="#page3"><span class="glyphicon glyphicon-globe"></span>&nbsp掌握技能</a></li>
-                  <li><a href="#page5"><span class="glyphicon glyphicon-globe"></span>&nbsp了解更多</a></li>
-                </ul>
-              </div>
+              <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-list"></span>&nbsp响应式导航栏</a>
             </div>
-          </nav>
-          <h1>工作经历和教育背景</h1>
-          <div class="progration">
-            <div class="label-primary"></div>
-            <div class="progress progress-striped active col-sm-4 col-md-4">
-              <div class="progress-bar progress-bar-primary" style="width: 100%;">
-              </div>
+            <div class="collapse navbar-collapse" id="example-navbar-collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="#page1"><span class="glyphicon glyphicon-wrench"></span>&nbsp欢迎首页</a></li>
+                <li><a href="#page2"><span class="glyphicon glyphicon-tasks"></span>&nbsp个人介绍</a></li>
+                <li><a href="#page3"><span class="glyphicon glyphicon-globe"></span>&nbsp掌握技能</a></li>
+                <li><a href="#page5"><span class="glyphicon glyphicon-globe"></span>&nbsp了解更多</a></li>
+              </ul>
             </div>
-            <div class="clearfix visible-xs"></div>
-            <!-- <div class="label-warning"></div>
+          </div>
+        </nav>
+        <div class="empty"></div>
+        <h1>工作经历和教育背景</h1>
+        <div class="progration">
+          <div class="label-primary"></div>
+          <div class="progress progress-striped active col-sm-4 col-md-4">
+            <div class="progress-bar progress-bar-primary" style="width: 100%;">
+            </div>
+          </div>
+          <div class="clearfix visible-xs"></div>
+          <!-- <div class="label-warning"></div>
           <div class="progress progress-striped active col-sm-3 col-md-3">
             <div class="progress-bar progress-bar-warning" style="width: 100%;">
             </div>
           </div> -->
-            <div class="label-info"></div>
-            <div class="progress progress-striped active col-sm-4 col-md-4">
-              <div class="progress-bar progress-bar-info" style="width: 100%;">
-              </div>
+          <div class="label-info"></div>
+          <div class="progress progress-striped active col-sm-4 col-md-4">
+            <div class="progress-bar progress-bar-info" style="width: 100%;">
             </div>
-            <div class="clearfix visible-xs"></div>
-            <div class="label-success"></div>
-            <div class="progress progress-striped active col-sm-4 col-md-4">
-              <div class="progress-bar progress-bar-success" style="width: 100%;">
-              </div>
+          </div>
+          <div class="clearfix visible-xs"></div>
+          <div class="label-success"></div>
+          <div class="progress progress-striped active col-sm-4 col-md-4">
+            <div class="progress-bar progress-bar-success" style="width: 100%;">
             </div>
-            <div class="glyphicon glyphicon-exclamation-sign"></div>
           </div>
-          <div class="progration text">
-            <div class="tag label-default">2012-09</div>
-            <div class="school label-primary place">广东药科大学-班长</div>
-            <div class="tag label-default">2016-07</div>
-            <div class="company label-primary place">汉佳信息科技有限公司-UI设计配置</div>
-            <div class="tag label-default">2017-09</div>
-            <div class="now label-primary place">广州求职</div>
-            <div class="tag label-default">NOW</div>
-          </div>
+          <div class="glyphicon glyphicon-exclamation-sign"></div>
+        </div>
+        <div class="progration text">
+          <div class="tag label-default">2012-09</div>
+          <div class="school label-primary place">广东药科大学-班长</div>
+          <div class="tag label-default">2016-07</div>
+          <div class="company label-primary place">汉佳信息科技有限公司-UI设计配置</div>
+          <div class="tag label-default">2017-09</div>
+          <div class="now label-primary place">广州求职</div>
+          <div class="tag label-default">NOW</div>
         </div>
       </div>
-      <div class="section" id="section5">
-        <div class="section5">
-          <nav class="navbar navbar-default navbar-inverse col-sm-12 col-md-12" role="navigation">
-            <div class="container-fluid" id="container-fluid">
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+    </div>
+    <div class="section" id="section5">
+      <div class="section5">
+        <nav class="navbar navbar-default navbar-inverse col-sm-12 col-md-12" role="navigation">
+          <div class="container-fluid" id="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
                 <span class="sr-only">切换导航</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-                <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-list"></span>&nbsp响应式导航栏</a>
-              </div>
-              <div class="collapse navbar-collapse" id="example-navbar-collapse">
-                <ul class="nav navbar-nav">
-                  <li><a href="#page1"><span class="glyphicon glyphicon-wrench"></span>&nbsp欢迎首页</a></li>
-                  <li><a href="#page2"><span class="glyphicon glyphicon-tasks"></span>&nbsp个人介绍</a></li>
-                  <li><a href="#page3"><span class="glyphicon glyphicon-globe"></span>&nbsp掌握技能</a></li>
-                  <li><a href="#page4"><span class="glyphicon glyphicon-globe"></span>&nbsp背景经历</a></li>
-                </ul>
-              </div>
+              <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-list"></span>&nbsp响应式导航栏</a>
             </div>
-          </nav>
-          <h1>了解更多</h1>
-          <h2><a href="http://blog.csdn.net/HangMine" target="_blank">个人主页</a>&nbsp|&nbsp<a href="http://blog.csdn.net/HangMine">Home-Page</a></h2>
-          <p class="email">Email:<a href="https://mail.qq.com/"  target="_blank">&nbsp 95629358@qq.com</a></p>
-          <a href="https://i.zhaopin.com/Home/ResumePreview?resumeNumber=JM392872967R90250000000&resumeId=224012314&version=1&language=1" target="_blank"  class="undeline"><h2 class="resume">下载简历</h2></a>
-          <div class="social-panel">
-            <div><a href="https://github.com/HangMine" target="_blank"><span><svg class="icon" aria-hidden="true"><use xlink:href="#icon-github"></use></svg></span></a></div>
-            <div><a href="http://blog.csdn.net/HangMine" target="_blank"><span><svg class="icon" style="font-size:width: 2.5rem;height: 2.5rem;" aria-hidden="true"><use xlink:href="#icon-csdn"></use></svg></span></a></div>
-            <div><a href="" target="_blank"><span><svg class="icon" aria-hidden="true"><use xlink:href="#icon-boke3"></use></svg></span></a></div>
-            <div><a href="" target="_blank"><span><svg class="icon" aria-hidden="true"><use xlink:href="#icon-wechat"></use></svg></span></a></div>
+            <div class="collapse navbar-collapse" id="example-navbar-collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="#page1"><span class="glyphicon glyphicon-wrench"></span>&nbsp欢迎首页</a></li>
+                <li><a href="#page2"><span class="glyphicon glyphicon-tasks"></span>&nbsp个人介绍</a></li>
+                <li><a href="#page3"><span class="glyphicon glyphicon-globe"></span>&nbsp掌握技能</a></li>
+                <li><a href="#page4"><span class="glyphicon glyphicon-globe"></span>&nbsp背景经历</a></li>
+              </ul>
+            </div>
           </div>
+        </nav>
+        <div class="empty"></div>
+        <h1>了解更多</h1>
+        <h2><a href="http://blog.csdn.net/HangMine" target="_blank">个人主页</a>&nbsp|&nbsp<a href="http://blog.csdn.net/HangMine">Home-Page</a></h2>
+        <p class="email";>Email:<a href="https://mail.qq.com/" target="_blank">&nbsp 95629358@qq.com</a></p>
+        <a href="https://i.zhaopin.com/Home/ResumePreview?resumeNumber=JM392872967R90250000000&resumeId=224012314&version=1&language=1" target="_blank" class="undeline"><h2 class="resume">下载简历</h2></a>
+        <div class="social-panel">
+          <div><a href="https://github.com/HangMine" target="_blank"><span><svg class="icon" aria-hidden="true"><use; xlink:href="#icon-github"></use></svg></span></a></div>
+          <div><a href="http://blog.csdn.net/HangMine" target="_blank"><span><svg class="icon" style="font-size:width: 1.5rem;height: 1.5rem;" aria-hidden="true"><use; xlink:href="#icon-csdn"></use></svg></span></a></div>
+          <div><a href="" target="_blank"><span><svg class="icon" aria-hidden="true"><use; xlink:href="#icon-boke3"></use></svg></span></a></div>
+          <div><a href="" target="_blank"><span><svg class="icon" aria-hidden="true"><use; xlink:href="#icon-wechat"></use></svg></span></a></div>
         </div>
       </div>
+    </div>
 
   </div>
 
@@ -246,7 +292,7 @@
         menu: '#menu',
         anchors: ['page1', 'page2', 'page3', 'page4', 'page5'],
         sectionsColor: ['rgb(54, 219, 165)', '#51bec4', '#2C3E50', 'rgb(183, 232, 78)', 'rgb(44, 204, 180)'],
-        afterRender: function(){
+        afterRender: function() {
           $('#callbacksDiv').append('<p>afterRender</p>');
         },
         afterLoad: function(anchorLink, index) {
@@ -262,7 +308,7 @@
         loopBottom: true
       });
 
-    });
+    })
   </script>
   <script type="text/javascript" src="resume.js"></script>
   <script type="text/javascript" src="./font/iconfont.js"></script>
